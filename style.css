@@ -28,11 +28,7 @@ body {
     opacity: 0.5;
     transition: opacity 500ms;
     border-radius: 15px;
-}
-
-.cuadro p {
-    text-align: center;
-    padding-top: 8vh;
+    cursor: pointer;
 }
 
 #cuadro-1 {
