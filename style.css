@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:antiquewhite;
+}
+
+/*Cabecera*/
+
+#cabecera {
+    display: flex;
+    flex-direction: row;
+}
+
+#cabecera .col-sm-2{
+    padding: 20px;
+}
+
+#cabecera .col-sm-8{
+    padding: 20px;
+}
+
+/*Cuadros*/
+
+.cuadro {
+    height: 200px;
+    opacity: 0.5;
+    transition: opacity 500ms;
+    border-radius: 15px;
+}
+
+.cuadro p {
+    text-align: center;
+    padding-top: 8vh;
+}
+
+#cuadro-1 {
+    background-color: blue;
+}
+
+#cuadro-2 {
+    background-color: red;
+}
+
+#cuadro-3 {
+    background-color: yellow;
+}
+
+#cuadro-4 {
+    background-color: green;
+}
+
+
+@media (max-width: 768px){
+    #tablero .cuadro {
+        height: 100px;
+    }
+}
